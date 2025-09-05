@@ -60,45 +60,6 @@ kanban-tarefas/
 └── README.md
 ```
 
-## 🚀 Como Executar
-
-### Pré-requisitos
-
-- Node.js (versão 16 ou superior)
-- npm ou pnpm
-
-### Instalação
-
-1. **Extrair o projeto**
-   ```bash
-   unzip kanban-tarefas.zip
-   cd kanban-tarefas
-   ```
-
-2. **Instalar dependências**
-   ```bash
-   npm install
-   # ou
-   pnpm install
-   ```
-
-3. **Executar em modo desenvolvimento**
-   ```bash
-   npm run dev
-   # ou
-   pnpm run dev
-   ```
-
-4. **Acessar a aplicação**
-   - Abra o navegador em: `http://localhost:5173`
-
-### Scripts Disponíveis
-
-- `npm run dev` - Inicia servidor de desenvolvimento
-- `npm run build` - Gera build de produção
-- `npm run preview` - Visualiza build de produção
-- `npm run lint` - Executa linter
-
 ## 📱 Responsividade
 
 A aplicação foi desenvolvida com design responsivo:
@@ -138,16 +99,6 @@ A aplicação foi desenvolvida com design responsivo:
 - Filtra por título e descrição
 - Case-insensitive
 
-## 📋 Dados Mock
-
-O projeto inclui 6 tarefas de exemplo:
-
-1. **Implementar login** (A Fazer)
-2. **Configurar banco de dados** (A Fazer)
-3. **Criar API de usuários** (Em Andamento)
-4. **Implementar autenticação JWT** (Em Andamento)
-5. **Configurar ambiente de desenvolvimento** (Concluído)
-6. **Documentar API** (Concluído)
 
 ## 🎯 Casos de Uso
 
@@ -171,26 +122,6 @@ O projeto inclui 6 tarefas de exemplo:
 ### Limpar Concluídas
 - Clique em "Limpar Concluídas" no cabeçalho
 - Confirme a ação no alert
-
-## 🐛 Solução de Problemas
-
-### Porta já em uso
-Se a porta 5173 estiver ocupada:
-```bash
-npm run dev -- --port 3000
-```
-
-### Dependências não instaladas
-```bash
-rm -rf node_modules package-lock.json
-npm install
-```
-
-### Build não funciona
-```bash
-npm run build
-npm run preview
-```
 
 ## 📄 Licença
 
